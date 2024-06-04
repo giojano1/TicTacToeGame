@@ -22,11 +22,11 @@
         <div class="title">
           <h3>PICK PLAYER 1'S MARK</h3>
           <div class="mark">
-            <button class="markX">
-              <img src="assets/img/gray-x.svg" alt="x" />
+            <button class="markX" value="x">
+              <img class="xImg" src="assets/img/gray-x.svg" alt="x" />
             </button>
-            <button class="markO active">
-              <img src="assets/img/navy-o.svg" alt="o" />
+            <button class="markO active" value="o">
+              <img class="oImg" src="assets/img/navy-o.svg" alt="o" />
             </button>
           </div>
           <div class="desc">
@@ -39,6 +39,48 @@
         <button id="multi">NEW GAME (VS PLAYER)</button>
       </div>
     </section>
-    <section class="game"></section>
+    <section class="game">
+      <div class="title">
+        <div class="icons">
+          <img src="assets/img/icon-x.svg" alt="x" />
+          <img src="assets/img/icon-o.svg" alt="o" />
+        </div>
+        <div class="turn">
+          <img src="assets/img/gray-x.svg" alt="x" />
+          <span>TURN</span>
+        </div>
+        <div class="restart">
+          <button>
+            <img src="assets/img/icon-restart.svg" alt="restart" />
+          </button>
+        </div>
+      </div>
+      <div class="game-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="score">
+        <div class="score-box scoreX">
+          <p>X(YOU)</p>
+          <h3>0</h3>
+        </div>
+        <div class="score-box scoreTie">
+          <p>TIES</p>
+          <h3>0</h3>
+        </div>
+        <div class="score-box scoreO">
+          <p>0(CPU)</p>
+          <h3>0</h3>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

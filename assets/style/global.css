@@ -241,4 +241,102 @@ body .menu .game-mode #multi:hover {
 
 .game {
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game .title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.game .title .icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.game .title .turn {
+  display: flex;
+  align-items: center;
+  background-color: #1f3641;
+  padding: 13px 30px;
+  border-radius: 10px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.391);
+}
+.game .title .turn img {
+  width: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.game .title .turn span {
+  font-size: 16px;
+  color: #a8bfc9;
+}
+.game .title .restart button {
+  background-color: #a8bfc9;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.445);
+  transition: 250ms;
+}
+.game .title .restart button img {
+  width: 20px;
+  height: 20px;
+}
+.game .title .restart button:hover {
+  background-color: #d8e8ed;
+  transition: 250ms;
+}
+.game .game-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 14px 0px;
+}
+.game .game-container .box {
+  width: 30%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f3641;
+  border-radius: 15px;
+  border-bottom: 6px solid rgba(0, 0, 0, 0.434);
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.game .score {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.game .score .score-box {
+  width: 30%;
+  text-align: center;
+  padding: 13px 0px;
+  border-radius: 15px;
+}
+.game .score .score-box p {
+  font-size: 14px;
+  color: #1a2a33;
+  font-weight: 500;
+}
+.game .score .score-box h3 {
+  font-size: 24px;
+  color: #1a2a33;
+  margin-top: 5px;
+}
+.game .score .scoreX {
+  background-color: #31c3bd;
+}
+.game .score .scoreTie {
+  background-color: #a8bfc9;
+}
+.game .score .scoreO {
+  background-color: #f2b137;
 }/*# sourceMappingURL=global.css.map */
