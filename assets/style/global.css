@@ -141,4 +141,104 @@ button {
 /* Global reset end */
 body {
   font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  background-color: #1a2a33;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body section {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+body .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .menu .title img {
+  width: 30px;
+  margin: 0px 5px;
+}
+body .menu .side {
+  width: 100%;
+  margin: 40px 0px;
+  background-color: #1f3641;
+  text-align: center;
+  padding: 24px;
+  border-radius: 15px;
+}
+body .menu .side h3 {
+  font-size: 16px;
+  color: #a8bfc9;
+}
+body .menu .side .mark {
+  background-color: #1a2a33;
+  margin: 24px 0px;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+body .menu .side .mark button {
+  background-color: transparent;
+  border: none;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 10px;
+}
+body .menu .side .mark button img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+body .menu .side .mark .active {
+  background-color: #a8bfc9;
+}
+body .menu .side .desc p {
+  font-size: 14px;
+  color: #a8bfc9;
+  font-weight: 300;
+}
+body .menu .game-mode {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body .menu .game-mode button {
+  font-size: 20px;
+  color: #1a2a33;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 0px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.186);
+  transition: 250ms;
+}
+body .menu .game-mode #comp {
+  background-color: #f2b137;
+}
+body .menu .game-mode #comp:hover {
+  background-color: #ffc860;
+  transition: 250ms;
+}
+body .menu .game-mode #multi {
+  margin-top: 20px;
+  background-color: #31c3bd;
+}
+body .menu .game-mode #multi:hover {
+  background-color: #65e9e4;
+  transition: 250ms;
+}
+
+.game {
+  display: none;
 }/*# sourceMappingURL=global.css.map */

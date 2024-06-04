@@ -10,8 +10,35 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/style/global.css" />
-
-    <title>Frontend Mentor | Tic Tac Toe</title>
+    <title>Tic Tac Toe</title>
   </head>
-  <body></body>
+  <body>
+    <section class="menu">
+      <div class="title">
+        <img src="assets/img/icon-x.svg" alt="x" />
+        <img src="assets/img/icon-o.svg" alt="o" />
+      </div>
+      <div class="side">
+        <div class="title">
+          <h3>PICK PLAYER 1'S MARK</h3>
+          <div class="mark">
+            <button class="markX">
+              <img src="assets/img/gray-x.svg" alt="x" />
+            </button>
+            <button class="markO active">
+              <img src="assets/img/navy-o.svg" alt="o" />
+            </button>
+          </div>
+          <div class="desc">
+            <p>REMEMBER : X GOES FIRST</p>
+          </div>
+        </div>
+      </div>
+      <div class="game-mode">
+        <button id="comp">NEW GAME (VS CPU)</button>
+        <button id="multi">NEW GAME (VS PLAYER)</button>
+      </div>
+    </section>
+    <section class="game"></section>
+  </body>
 </html>
